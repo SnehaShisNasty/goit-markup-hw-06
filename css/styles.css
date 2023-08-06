@@ -189,6 +189,11 @@ label {
   background-position: center;
   margin: auto;
 }
+@media (min-resolution: 192dpi) {
+  .box {
+    background-image: url("../images/hero-bg-img@2x.jpg");
+  }
+}
 .hero .container {
   text-align: center;
 }
