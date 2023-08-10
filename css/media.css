@@ -1,0 +1,62 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 398px;
+    padding: 0 15px;
+  }
+  .doing-section {
+    display: none;
+  }
+  .team-section .container {
+    padding-left: 66px;
+    padding-right: 66px;
+  }
+  .team-section .card-img {
+    max-width: 264px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 738px;
+  }
+  .advantages-section .card-set {
+    gap: 72px 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .doing-section {
+    display: none;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1128px;
+  }
+  .advantages-section .card-set {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .advantages-section .card_subtitle {
+    font-weight: 400;
+  }
+  .card {
+    flex-basis: calc((100% - 24px * 3) / 4);
+  }
+  .advantages_icon-box {
+    display: flex;
+  }
+  .doing-section {
+    display: flex;
+  }
+  .doing-section .card-set {
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .doing-section .card {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+}
